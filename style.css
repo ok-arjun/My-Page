@@ -1,0 +1,168 @@
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	font-family: Times new roman;
+	background-color: #1f1f1f !important;
+}
+
+.navbar
+{
+	background-color: #310e68;
+background-image: linear-gradient(316deg, #310e68 0%, #5f0f40 74%);
+	position: sticky !important;
+	padding-top: 0px;
+}
+.navbar-brand b
+{
+	color: #fff;
+}
+.navbar-nav li
+{
+	padding: 0px 7px;
+}
+.nav-link 
+{
+	color: #fff !important;
+	float: right;
+
+	
+}
+.nav-link:hover
+{
+	box-shadow: 0px 0px 5px #fff;
+	border-radius: 20px;
+	
+}
+.dropdown-item
+{
+   color: #fff !important;
+}
+.dropdown-item:hover
+{
+ color: #000000 !important;
+ border-radius: 15px;
+}
+.navbar-nav li form
+{
+	float: right;
+}
+.fa-ellipsis-v
+{
+	color: #fff;
+	font-size: 35px !important;
+}
+.navbar-toggler
+{
+	outline: none !important;
+}
+.dropdown-menu
+{
+	background-color: #310e68;
+background-image: linear-gradient(316deg, #310e68 0%, #5f0f40 74%);
+}
+/*-----------------------------------home----------------------*/
+#home
+{
+	background-color: #7f5a83;
+background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+
+}
+.logo
+{
+	width: 400px;
+	padding: 20px;	
+	transform: translateX(100px);
+}
+
+.title
+{
+	padding-top: 200px;
+	font-size: 50px;
+	color: #fff;
+	text-shadow: 0px 0px 5px #000000;
+}
+.discription
+{
+	color: #fff;
+}
+.wave
+{
+	width: 100%;
+}
+/*----------------------------------gallery-------------------------------*/
+.gallery img
+{
+  width: 300px;
+  margin: 50px 50px 50px 50px; 
+  padding: 	5px 5px 5px 5px;
+}
+.art
+{
+	color: #fff;
+}
+.pd h4
+{  
+	padding-bottom: 35px;
+	letter-spacing: 5px;
+	text-align: center;
+	color: #fff;
+}
+.price 
+{
+  color: #fff;
+}
+/*------------------------contact--------------*/
+.contactlogo img
+{
+	width: 100px;
+	padding: 10px;
+}
+.contactlogo a
+{
+	text-decoration: none;
+	color: #fff;
+}
+.followlogo a img
+{
+	width: 70px;
+	padding: 0px;
+	margin-left: 40px;
+}
+.followlogo a img:hover
+{
+	transform: translateY(-10px);
+}
+.heading
+{
+	color: #fff;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 25px;
+}
+.heading::after
+{
+	content: '';
+	background: #7b1798;
+	height: 5px;
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border-radius: 10px;
+}
+.btn a
+{
+	text-decoration: none;
+	color: #fff;
+}
+#btn 
+{
+	position: sticky !important;
+	float: right !important;
+	padding-bottom:0px !important;
+	padding-right:0px !important;
+}
